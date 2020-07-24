@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base target="_blank" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Array Methods</title>
+  </head>
+  <body>
+    <h1 class="title">Array Methods in JavaScript</h1>
+    <div class="wrapper">
+      <div class="array-examples-container">
+        <div class="example-array">let myArray = [ 1, 4, 7, 4, 8, 6 ]</div>
+        <div class="example-array-methods">
+          <button
+            type="button"
+            class="btn btn-primary filter"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Filter()
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary map"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Map()
+          </button>
+          <button
+            type="button"
+            class="btn btn-success every"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Every()
+          </button>
+          <button
+            type="button"
+            class="btn btn-danger forEach"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            ForEach()
+          </button>
+          <button
+            type="button"
+            class="btn btn-warning some"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Some()
+          </button>
+          <button
+            type="button"
+            class="btn btn-info find"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Find()
+          </button>
+          <button
+            type="button"
+            class="btn btn-light border reduce"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Reduce()
+          </button>
+          <hr />
+          <h3>Some other popular array methods</h3>
+          <button
+            type="button"
+            class="btn btn-light border join"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Join()
+          </button>
+          <button
+            type="button"
+            class="btn btn-info reverse"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Reverse()
+          </button>
+          <button
+            type="button"
+            class="btn btn-warning slice"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Slice()
+          </button>
+          <button
+            type="button"
+            class="btn btn-danger splice"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Splice()
+          </button>
+          <button
+            type="button"
+            class="btn btn-success sort"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Sort()
+          </button>
+          <button
+            type="button"
+            class="btn btn-secondary includes"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Tooltip on top"
+          >
+            Includes()
+          </button>
+        </div>
+        <div class="example-array-display-card">
+          <div class="card-body">
+            <div class="card-title">Map Array</div>
+            <code class="card-code">
+              The map() method creates a new array by performing a function on
+              each array element. The map() method does not execute the function
+              for array elements without values. The map() method does not
+              change the original array. myArray.map((arr) => { return arr * 2;
+            </code>
+            <a href="#" class="card-link btn-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-container">
+        <li class="result-item custom">Result</li>
+        <ul class="result-list"></ul>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
